@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 //@ts-ignore
-import {yellowSubmarine} from '../funcions.js';
+import {changeSize, yellowSubmarine} from '../funcions.js';
 
 @Component({
   selector: 'app-projecte1',
@@ -16,6 +16,7 @@ export class Projecte1Component implements OnInit{
     this.fun1();
     this.fun2();
     yellowSubmarine();
+    changeSize();
   }
   fun1 () {
     let titolMayus = document.getElementById('titol')!;
