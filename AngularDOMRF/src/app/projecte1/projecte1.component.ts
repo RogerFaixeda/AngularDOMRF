@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 //@ts-ignore
-import {yellowSubmarine} from './/src/app/funcions.js';
+import {yellowSubmarine} from '../funcions.js';
 
 @Component({
   selector: 'app-projecte1',
